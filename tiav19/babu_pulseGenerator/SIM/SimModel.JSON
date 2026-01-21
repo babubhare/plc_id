@@ -1,0 +1,81 @@
+[
+  {
+    "IsSelectedSimModel": true,
+    "Label": "SimView_1",
+    "IoContainerModel": {
+      "SimulationItemModelList": [
+        {
+          "$type": "plcsim.Simulation.IoTables.Model.IoTable, plcsim",
+          "x": 20.0,
+          "y": 20.0,
+          "z": 9,
+          "width": 900.0,
+          "Name": "SimTable_1",
+          "Id": "f4d081f6-7a66-4cc6-a3ae-c4ace1daa9c8",
+          "CachedPlcInformation": {
+            "InstanceGuid": "338f8cf9-382c-41c4-95f9-5806e5f3c71f",
+            "PlcName": "PLC_1",
+            "InstanceName": "STEP7 Instance_1",
+            "PlcFamily": 1,
+            "PlcTypeString": "S7-1200"
+          },
+          "IoItemList": [
+            {
+              "ParentId": "f4d081f6-7a66-4cc6-a3ae-c4ace1daa9c8",
+              "Comment": "",
+              "VariableData": {
+                "TagName": "POWER ON",
+                "Address": {
+                  "OffsetString": "0.0",
+                  "BitOffset": 0,
+                  "Area": 0,
+                  "BitWidth": 1,
+                  "IsPeripheral": true,
+                  "DataBlockNumber": -1,
+                  "IsOptimizedDb": false,
+                  "DataBlockArea": 0,
+                  "AddressUserInput": "%I0.0"
+                }
+              },
+              "SelectedFormat": 4,
+              "ConsistentModifyEnabled": false,
+              "ConsistentModifyValue": "",
+              "InstanceGuid": "338f8cf9-382c-41c4-95f9-5806e5f3c71f"
+            },
+            {
+              "ParentId": "f4d081f6-7a66-4cc6-a3ae-c4ace1daa9c8",
+              "Comment": "",
+              "VariableData": {
+                "TagName": "OUTPUT",
+                "Address": {
+                  "OffsetString": "0.0",
+                  "BitOffset": 0,
+                  "Area": 1,
+                  "BitWidth": 1,
+                  "IsPeripheral": false,
+                  "DataBlockNumber": -1,
+                  "IsOptimizedDb": false,
+                  "DataBlockArea": 0,
+                  "AddressUserInput": "%Q0.0"
+                }
+              },
+              "SelectedFormat": 4,
+              "ConsistentModifyEnabled": false,
+              "ConsistentModifyValue": "",
+              "InstanceGuid": "338f8cf9-382c-41c4-95f9-5806e5f3c71f"
+            }
+          ],
+          "ColumnFilters": {
+            "NameVisible": true,
+            "AddressVisible": true,
+            "DisplayFormatVisible": true,
+            "MonitorVisible": true,
+            "ConsistentModifyVisible": true,
+            "CommentVisible": true
+          }
+        }
+      ]
+    },
+    "Version": "19.00.00.00"
+  }
+]

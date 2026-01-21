@@ -1,0 +1,56 @@
+[
+  {
+    "ChildTags": [],
+    "Name": "POWER ON",
+    "Address": {
+      "OffsetString": "0.0",
+      "BitOffset": 0,
+      "Area": 0,
+      "BitWidth": 1,
+      "IsPeripheral": true,
+      "DataBlockNumber": -1,
+      "IsOptimizedDb": false,
+      "DataBlockArea": 0,
+      "AddressUserInput": "%I0.0"
+    },
+    "IsStructContainer": false,
+    "IsDb": false,
+    "ArrayMember": false
+  },
+  {
+    "ChildTags": [],
+    "Name": "OUTPUT",
+    "Address": {
+      "OffsetString": "0.0",
+      "BitOffset": 0,
+      "Area": 1,
+      "BitWidth": 1,
+      "IsPeripheral": false,
+      "DataBlockNumber": -1,
+      "IsOptimizedDb": false,
+      "DataBlockArea": 0,
+      "AddressUserInput": "%Q0.0"
+    },
+    "IsStructContainer": false,
+    "IsDb": false,
+    "ArrayMember": false
+  },
+  {
+    "ChildTags": [],
+    "Name": "MEMORY",
+    "Address": {
+      "OffsetString": "0.0",
+      "BitOffset": 0,
+      "Area": 2,
+      "BitWidth": 1,
+      "IsPeripheral": false,
+      "DataBlockNumber": -1,
+      "IsOptimizedDb": false,
+      "DataBlockArea": 0,
+      "AddressUserInput": "%M0.0"
+    },
+    "IsStructContainer": false,
+    "IsDb": false,
+    "ArrayMember": false
+  }
+]
